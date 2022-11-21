@@ -14,7 +14,7 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=''){
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Dashboard Page</title>
+      <title>ADMIN-PANEL</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="assets/css/normalize.css">
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -31,7 +31,7 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=''){
          <nav class="navbar navbar-expand-sm navbar-default">
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                <ul class="nav navbar-nav">
-                  <li class="menu-title">Menu</li>
+                  <li class="menu-title">ADMIN-TNLL</li>
                   <li class="menu-item-has-children dropdown">
                      <a href="categories.php" > Categories Master</a>
                   </li>
@@ -41,15 +41,9 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=''){
                   <li class="menu-item-has-children dropdown">
                      <a href="product.php" > Product Master</a>
                   </li>
-				  <li class="menu-item-has-children dropdown">
-                     <a href="order_master.php" > Order Master</a>
-                  </li>
-				  <li class="menu-item-has-children dropdown">
-                     <a href="users.php" > User Master</a>
-                  </li>
-				  <li class="menu-item-has-children dropdown">
-                     <a href="coupon_master.php" > Coupon Master</a>
-                  </li>
+				  
+				 
+				  
 				  <li class="menu-item-has-children dropdown">
                      <a href="contact_us.php" > Contact Us</a>
                   </li>

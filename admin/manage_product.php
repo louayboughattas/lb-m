@@ -136,11 +136,11 @@ if(isset($_POST['submit'])){
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Product Name</label>
+									<label for="categories" class=" form-control-label">MATCH NAME</label>
 									<input type="text" name="name" placeholder="Enter product name" class="form-control" required value="<?php echo $name?>">
 								</div>
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Best Seller</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<select class="form-control" name="best_seller" required>
 										<option value=''>Select</option>
 										<?php
@@ -158,17 +158,17 @@ if(isset($_POST['submit'])){
 									</select>
 								</div>
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">MRP</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<input type="text" name="mrp" placeholder="Enter product mrp" class="form-control" required value="<?php echo $mrp?>">
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Price</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<input type="text" name="price" placeholder="Enter product price" class="form-control" required value="<?php echo $price?>">
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Qty</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<input type="text" name="qty" placeholder="Enter qty" class="form-control" required value="<?php echo $qty?>">
 								</div>
 								
@@ -178,27 +178,27 @@ if(isset($_POST['submit'])){
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Short Description</label>
+									<label for="categories" class=" form-control-label">LINK VIDEO STREAM</label>
 									<textarea name="short_desc" placeholder="Enter product short description" class="form-control" required><?php echo $short_desc?></textarea>
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Description</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<textarea name="description" placeholder="Enter product description" class="form-control" required><?php echo $description?></textarea>
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Meta Title</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<textarea name="meta_title" placeholder="Enter product meta title" class="form-control"><?php echo $meta_title?></textarea>
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Meta Description</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<textarea name="meta_desc" placeholder="Enter product meta description" class="form-control"><?php echo $meta_desc?></textarea>
 								</div>
 								
 								<div class="form-group">
-									<label for="categories" class=" form-control-label">Meta Keyword</label>
+									<label for="categories" class=" form-control-label">N</label>
 									<textarea name="meta_keyword" placeholder="Enter product meta keyword" class="form-control"><?php echo $meta_keyword?></textarea>
 								</div>
 								
