@@ -94,4 +94,4 @@ if(isset($_GET['id'])){
        
         
         </body>									
-<?php require('')?>        
+<?php require('footer.php')?>      
