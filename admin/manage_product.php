@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
 	if($msg==''){
 		if(isset($_GET['id']) && $_GET['id']!=''){
 			if($_FILES['image']['name']!=''){
-				$image=rand(111111111,999999999).'_'.$_FILES['image']['name'];
+				$image=['image']['name'].$_FILES['image']['name'];
 				move_uploaded_file($_FILES['image']['tmp_name'],PRODUCT_IMAGE_SERVER_PATH.$image);
 				$update_sql="update product set categories_id='$categories_id',name='$name',mrp='$mrp',price='$price',qty='$qty',short_desc='$short_desc',description='$description',meta_title='$meta_title',meta_desc='$meta_desc',meta_keyword='$meta_keyword',image='$image',best_seller='$best_seller',sub_categories_id='$sub_categories_id' where id='$id'";
 			}else{
@@ -93,7 +93,7 @@ if(isset($_POST['submit'])){
 			}
 			mysqli_query($con,$update_sql);
 		}else{
-			$image=rand(111111111,999999999).'_'.$_FILES['image']['name'];
+			$image=['image']['name'].$_FILES['image']['name'];
 			move_uploaded_file($_FILES['image']['tmp_name'],PRODUCT_IMAGE_SERVER_PATH.$image);
 			mysqli_query($con,"insert into product(categories_id,name,mrp,price,qty,short_desc,description,meta_title,meta_desc,meta_keyword,status,image,best_seller,sub_categories_id) values('$categories_id','$name','$mrp','$price','$qty','$short_desc','$description','$meta_title','$meta_desc','$meta_keyword',1,'$image','$best_seller','$sub_categories_id')");
 		}
