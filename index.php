@@ -14,7 +14,7 @@
                 </div>
                 <div class="htc__product__container">
                     <div class="row">
-                        <div class="product__list clearfix mt--30">
+                        <div class="product__list clearfix mt--40">
 							<?php
 							$get_product=get_product($con,3);
 							foreach($get_product as $list){
