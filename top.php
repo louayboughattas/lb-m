@@ -16,7 +16,7 @@ $totalProduct=$obj->totalProduct();
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ecom Website</title>
+    <title>forja-blech</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -77,23 +77,7 @@ $totalProduct=$obj->totalProduct();
                                     </nav>
                                 </div>  
                             </div>
-                            <div class="col-md-3 col-lg-3 col-sm-4 col-xs-4">
-                                <div class="header__right">
-                                    <div class="header__account">
-                                        <?php if(isset($_SESSION['USER_LOGIN'])){
-											echo '<a href="logout.php">Logout</a> <a href="my_order.php">My Order</a>';
-										}else{
-											echo '<a href="login.php">Login/Register</a>';
-										}
-										?>
-										
-                                    </div>
-                                    <div class="htc__shopping__cart">
-                                        <a class="cart__menu" href="#"><i class="icon-handbag icons"></i></a>
-                                        <a href="cart.php"><span class="htc__qua"><?php echo $totalProduct?></span></a>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="mobile-menu-area"></div>
