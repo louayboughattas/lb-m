@@ -8,13 +8,13 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="section__title--2 text-center">
-                            <h2 class="title__line">مباريات اليوم</h2>
+                            <h2 class="title__line">مباريات </h2>
                         </div>
                     </div>
                 </div>
                 <div class="htc__product__container">
                     <div class="row">
-                        <div class="product__list clearfix mt--60">
+                        <div class="product__list clearfix mt--30">
 							<?php
 							$get_product=get_product($con,3);
 							foreach($get_product as $list){
