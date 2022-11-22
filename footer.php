@@ -37,7 +37,7 @@
                         <div class="col-xs-12">
                             <div class="copyright__inner">
                                 <p>Copyright© <a href="INDEX.PHP">FORJA-BLECH</a>2022. TUNIS .</p>
-                                <a href="#"><img src="images/bg/4.jpg" alt=" images"></a>
+                                <a href="#"><img src="images/logo/4.jpg" alt=" images"></a>
                             </div>
                         </div>
                     </div>
