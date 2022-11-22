@@ -42,6 +42,8 @@
             </div>
         </section>
         <!-- End Category Area -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9091965909990042"
+     crossorigin="anonymous"></script>
         
 		<input type="hidden" id="qty" value="1"/>
 <?php require('footer.php')?>        
