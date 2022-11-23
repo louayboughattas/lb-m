@@ -75,11 +75,7 @@ if(isset($_GET['id'])){
                                             <img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image']?> "width="400" 
      height="1200" >
 
-     <video width="320" height="240" autoplay>
-  <source src="<?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image']?>" type="live">
-  <source src="<?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image']?>" type="live">
-
-</video>
+                                             
                                         </div>
                                     </div>
                                 </div>
