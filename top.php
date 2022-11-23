@@ -14,6 +14,9 @@ $totalProduct=$obj->totalProduct();
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9091965909990042"
+     crossorigin="anonymous"></script>
+     
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>forja-blech</title>
