@@ -47,17 +47,7 @@ if(isset($_GET['id']) && $_GET['id']!=''){
 					<?php if(count($get_product)>0){?>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="htc__product__rightidebar">
-                            <div class="htc__grid__top">
-                                <div class="htc__select__option">
-                                    <select class="ht__select">
-                                        <option>Default softing</option>
-                                        <option>Sort by popularity</option>
-                                        <option>Sort by average rating</option>
-                                        <option>Sort by newness</option>
-                                    </select>
-                                </div>
-                               
-                            </div>
+                            
                             <!-- Start Product View -->
                             <div class="row">
                                 <div class="shop__grid__view__wrap">
@@ -76,10 +66,7 @@ if(isset($_GET['id']) && $_GET['id']!=''){
 												
 												<div class="fr__product__inner">
 													<h4><a href="product-details.html"><?php echo $list['name']?></a></h4>
-													<ul class="fr__pro__prize">
-														<li class="old__prize"><?php echo $list['mrp']?></li>
-														<li><?php echo $list['price']?></li>
-													</ul>
+													
 												</div>
 											</div>
 										</div>

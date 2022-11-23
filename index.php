@@ -1,6 +1,11 @@
 <?php require('top.php')?>
 <div class="body__overlay"></div>
 
+<div class="card bg-dark text-white">
+  <img class="card-img" src="./images/logo/BANNER-LOGO.jpg" alt="Card image">
+  
+</div>
+
 
 
         
@@ -78,6 +83,8 @@
                                 </div>
                             </div>
                             <!-- End Single Category -->
+
+
 							<?php } ?>
                         </div>
                     </div>
