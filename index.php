@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php require('top.php')?>
 <div class="body__overlay"></div>
 
@@ -106,3 +108,5 @@
         
 		<input type="hidden" id="qty" value="1"/>
 <?php require('footer.php')?>        
+</body>
+</html>
