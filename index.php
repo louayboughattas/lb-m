@@ -1,4 +1,8 @@
 <html>
+    <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9091965909990042"
+     crossorigin="anonymous"></script>
+    </head>
 <body>
 <?php require('top.php')?>
 <div class="body__overlay"></div>
